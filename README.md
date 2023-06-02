@@ -1,4 +1,4 @@
-# Requêts d'une BDD et création d'un tableau de bord (projet pédagogique de formation)
+# Requêtes d'une BDD et création d'un tableau de bord (projet pédagogique de formation)
 
 ## A propos
 
@@ -25,6 +25,11 @@ Synthèse du projet. Ce fichier présente :
 ### Dashboard_projet_01.pbix
 Fichier Power BI contenant le tableau de bord. Dans chaque onglet, on retrouve un ou plusieurs graphiques qui répondent aux demandes du client, ou qui proposent d'aller plus loin avec d'autres indicateurs.  
 Ces graphiques sont identifiés par département.
+
+### Fichiers .sql
+Ces fichiers contiennent certaines des requêtes SQL utilisées dans Power BI lors du chargement des données et de la connexion à la source de données distante.
+- Queries_views_turnover_by_country_by_month_year.sql : requêtes SQL utilisées pour récupérer les chiffres d'affaires par pays, par mois et par an.
+- Queries_unpaid_orders.sql : requêts SQL utilisées pour récupérer le montant des commandes impayées ; ce fichier contient plusieurs requêtes avec les commandes, les montants des commandes par client.
 
 ## Fabriqué avec
 
